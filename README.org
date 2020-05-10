@@ -1,5 +1,5 @@
 * VRGuard
-  VRGuard utilized [[https://github.com/cmbruns/pyopenvr][pyopenvr]] to track the position of OpenVR controllers in respect to the shaperbounds.
-  When a controllers get too close or beyond the shaperbounds, an audible warning is meant to be played.
+  VRGuard utilized [[https://github.com/cmbruns/pyopenvr][pyopenvr]] to track the position of OpenVR controllers in respect to the playarea (chaperone).
+  When a controllers get too close or beyond the playarea, an audible warning is meant to be played.
   The intention is to reduce accidents like breaking mirrors, screens, TVs or the controller itself by slamming
   them into objects in an intense session of VR.

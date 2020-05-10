@@ -1,3 +1,5 @@
+# SPDX-License-Identifier: GPL-3.0-or-later
+
 import time
 import openvr as vr
 from pygame import mixer
@@ -72,7 +74,7 @@ class VRGuard():
         except:
             return False
 
-    # ########### Returns the distance of a given position to the shaper m_Bounds
+    # ########### Returns the distance of a given position to the chaperone m_Bounds
     def getDistanceToBounds(self, pos):
         if(not self.m_Bounds): return None
         
@@ -167,7 +169,7 @@ class VRGuard():
     # ########### cstor
     def __init__(self):
         self.startContext() # Start OpenVR context
-        self.updateBounds() # Update shaperbounds
+        self.updateBounds() # Update chaperone bounds
 
 # ########### Main
 def main():
